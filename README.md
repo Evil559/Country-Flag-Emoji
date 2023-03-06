@@ -1,1 +1,9 @@
-# Country-Flag-Emoji
+## Usage
+
+```php
+require 'flags.php';
+
+$flag = getCountryFlag('US');
+
+echo $flag; // 🇺🇸
+```
